@@ -1,0 +1,5 @@
+JNI-DLL_Demo 是学习JNI与Windows系统本地接口调用的实战项目。
+
+目录结构：
+	java —— Java端的Java Class约定类定义
+	XH_NetSDKForJava —— JNI接口的本地实现VS工程

@@ -1,0 +1,9 @@
+LIBRARY
+
+EXPORTS
+	Java_com_xh_xEye_jni_EquipJNI_loginEquip
+	Java_com_xh_xEye_jni_EquipJNI_getDeviceList
+	Java_com_xh_xEye_jni_EquipJNI_getDevGroupsByCode
+	Java_com_xh_xEye_jni_EquipJNI_getDevicesByCode
+	Java_com_xh_xEye_jni_EquipJNI_logoutEquip
+	Java_com_xh_xEye_jni_EquipJNI_getDomain

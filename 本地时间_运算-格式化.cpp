@@ -117,3 +117,9 @@ char tAll[255];
 std::memset(tAll, 0, sizeof(tAll));
 std::time_t tm = std::time(0);
 std::strftime(tAll, sizeof(tAll), "%Y%m%d%H%M%S", std::localtime(&tm));
+
+
+
+// 获取系统开机到当前的毫秒数
+#include <time.h>
+clock();
