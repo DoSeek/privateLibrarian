@@ -1,0 +1,13 @@
+CommonUtilitiesLib项目是 Apple的Drawin流媒体服务器项目 中的一个模块，支持Windows、MacOS、Linux操作系统。
+
+此模块包括：POSIX线程、线程池、(状态机)任务线程、定时器线程、UDP、TCP、Socket、链表、队列、堆、锁
+
+CommonUtilitiesLib项目包括：
+文件夹：
+	CommonUtilitiesLib  —— 属于项目
+	Include		—— 属于项目
+	Demo	—— 自己写的私有实战项目(放于此处主要是学习其从Task来派生出来的状态机式的任务线程思想，参看RegistSession.cpp)
+	
+各操作系统工程：
+	VS工程		——  生成CommonUtilitiesLib.lib 静态库
+	make工程
